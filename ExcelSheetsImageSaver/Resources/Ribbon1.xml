@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="OnLoad" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+    <ribbon>
+        <tabs>
+            <tab idMso="TabHome">
+                <group id="rng2img" label="Range to Images" insertAfterMso ="GroupClipboard">
+                    <button id="Save" onAction="OnButtonPressed" screentip="Saves Named Ranges to Image Files" size="large" imageMso="SaveAsPng" label="Save" />
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>
