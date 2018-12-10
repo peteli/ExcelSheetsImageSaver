@@ -13,6 +13,7 @@ namespace pliExcelSheetsImageSaver
             Debug.WriteLine("AutoOpen runs");
             MyApp.ExcelApp = (Application) ExcelDnaUtil.Application;
             RibbonController.Load += (s,e)=> { Debug.WriteLine("Event in MyAddIn class erhalten"); } ;
+            
         }
 
         public void AutoClose()

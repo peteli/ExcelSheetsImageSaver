@@ -4,7 +4,7 @@
         <tabs>
             <tab idMso="TabHome">
                 <group id="rng2img" label="Range to Images" insertAfterMso ="GroupClipboard">
-                    <button id="Save" onAction="OnButtonPressed" screentip="Saves Named Ranges to Image Files" size="large" imageMso="SaveAsPng" label="Save" />
+                    <button id="Save" onAction="OnAction" screentip="Saves Named Ranges to Image Files" size="large" imageMso="SaveAsPng" label="Save" />
                 </group>
             </tab>
         </tabs>
